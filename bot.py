@@ -9,11 +9,11 @@ bot = telebot.TeleBot(config.token)
 	
 @bot.message_handler(commands=["start"])
 def start(message):
-	bot.send_message(message.chat.id, 'Hello. \n\n Write /help fro help.')
+	bot.send_message(message.chat.id, 'Hello! \n\n Send me your track(s) for Pro Mastering. Write /help for full information.')
 
 @bot.message_handler(commands=["help"])
 def start(message):
-	bot.send_message(message.chat.id, 'Help message😈')
+	bot.send_message(message.chat.id, 'This bot is designed to receive your songs for professional mastering. Send your tracks in .WAV format [24 bit, 44100] The term of order execution is 1-3 days. We will send the finished result (maybe even several versions) directly to your account.')
 
 
 
