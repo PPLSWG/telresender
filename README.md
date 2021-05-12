@@ -1,5 +1,5 @@
-## Telresender
-Just resend your messages.
+## PPLSWG Resender
+Just resend your messages. (audio file  soon)
 
 ## Install
  1. Install telebot module: `sudo pip install pytelegrambotapi`
