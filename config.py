@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
-token = 'token'
+token = 'token' #telegram API-token
 owner = '***'
